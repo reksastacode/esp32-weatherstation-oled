@@ -1,4 +1,4 @@
-# 🌤️ ESP32 Weather Station with OLED & Animated Snow Effect
+#  ESP32 Weather Station with OLED & Animated Snow Effect
 
 An ESP32-based desktop weather station that fetches real-time weather data from the OpenWeatherMap API and displays it on an SSD1306 OLED screen alongside a custom animated snowflake background effect.
 
@@ -9,7 +9,7 @@ An ESP32-based desktop weather station that fetches real-time weather data from 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Real-Time Weather Updates:** Fetches temperature, humidity, and weather conditions using the OpenWeatherMap REST API.
 - **Animated Snow Background:** Continuous graphics rendering loop generating non-blocking animated snowfall across the display.
@@ -19,7 +19,7 @@ An ESP32-based desktop weather station that fetches real-time weather data from 
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 | Component | Quantity | Description |
 | :--- | :---: | :--- |
@@ -30,7 +30,7 @@ An ESP32-based desktop weather station that fetches real-time weather data from 
 
 ---
 
-## 🔌 Wiring & Pinout
+##  Wiring & Pinout
 
 Connect the SSD1306 OLED display to your ESP32 board via I2C pins:
 
@@ -45,7 +45,7 @@ Connect the SSD1306 OLED display to your ESP32 board via I2C pins:
 
 ---
 
-## 📦 Software Dependencies
+##  Software Dependencies
 
 To compile and upload this sketch, make sure you install the following libraries in your Arduino IDE:
 
@@ -59,7 +59,7 @@ To compile and upload this sketch, make sure you install the following libraries
 
 ---
 
-## 🔑 Getting an OpenWeatherMap API Key
+##  Getting an OpenWeatherMap API Key
 
 1. Go to [OpenWeatherMap](https://openweathermap.org/) and sign up for a free account.
 2. Navigate to your **API Keys** tab under your account dashboard.
@@ -68,7 +68,7 @@ To compile and upload this sketch, make sure you install the following libraries
 
 ---
 
-## 🚀 Setup & Configuration
+##  Setup & Configuration
 
 1. **Clone or Download** this repository:
    ```bash
@@ -97,7 +97,7 @@ To compile and upload this sketch, make sure you install the following libraries
 
 ---
 
-## 💻 How It Works
+##  How It Works
 
 - **Startup:** The ESP32 connects to WiFi and displays a connecting message on the screen.
 - **Data Fetch:** Once connected, it sends an HTTP GET request to the OpenWeatherMap API to parse the current JSON payload.
