@@ -72,7 +72,7 @@ To compile and upload this sketch, make sure you install the following libraries
 
 1. **Clone or Download** this repository:
    ```bash
-   git clone https://github.com/your-username/esp32-weather-station.git
+   git clone https://github.com/reksastacode/esp32-weatherstation-oled.git
    ```
 2. Open the code in **Arduino IDE**.
 3. Locate the configuration lines at the top of the sketch and fill in your details:
